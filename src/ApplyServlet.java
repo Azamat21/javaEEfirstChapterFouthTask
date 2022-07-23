@@ -39,7 +39,7 @@ public class ApplyServlet extends HttpServlet {
         out.print("</head>");
         out.print("<body>");
         out.print("<div class='mx-auto' style='width:280px'>");
-        out.print("<p style='font-size:20px' class='container-fluid text-justify text-align'>"+name+" "+surname+" "+sel+""+"!</p>");
+        out.print("<p style='font-size:20px' class='container-fluid text-justify text-align'>"+name+" "+surname+" ordered "+sel+""+"</p>");
         out.print("</div>");
         out.print("</body>");
         out.print("</html>");
@@ -48,7 +48,6 @@ public class ApplyServlet extends HttpServlet {
 
 
     @Override
-
     protected void doGet(HttpServletRequest request,
 
                          HttpServletResponse response) throws ServletException, IOException {

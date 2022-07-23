@@ -59,9 +59,9 @@ public class FirstServlet extends HttpServlet {
         out.print("</tr>");
         out.print("<tr>");
         out.print("<td>Food:</td><td><select name='sel'>" +
-                "<option>Burger</option>"+
-                "<option>Lagman</option>"+
-                "<option>Beshbarmak</option>"+
+                "<option>Burger - 1000KZ</option>"+
+                "<option>Lagman - 1100KZ</option>"+
+                "<option>Beshbarmak - 2500KZ</option>"+
                 "</select></td>");
         out.print("</tr>");
         out.print("<tr>");
